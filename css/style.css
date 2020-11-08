@@ -1,0 +1,313 @@
+
+/* 画像 */
+
+
+
+
+
+/* <!-- header タイトル+メニューバー --> */
+.header{
+    display: flex  ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav{
+     list-style:none;
+     /* 箇条書きの・を消す設定 */
+     /* サンプル1
+     サンプル2
+     サンプル3
+     →この・の部分を消す処理 */
+}
+
+.header__nav li{
+    margin: 40px;
+
+}
+/* mainvisualメイン画像 */
+.mainvisual-image{
+    background-image: url(../img/mainbg.png);
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    width: 100%;  
+}
+
+.mainvisual-image:hover{
+    opacity: 0.5  ;
+    background-color: black;
+
+}
+
+.main-title{
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.mainvisual h2{
+    margin: 50px auto;
+}
+/* 上下50px 左右は自動均等 */
+
+
+/* <!-- ■About --> */
+.about{
+    width: 60%;
+    margin: auto;
+}
+.picture__about{
+    display: flex;
+    
+}
+
+.picture__about img{
+    width: 25%;
+    
+}
+
+/* コース */
+
+/* 階層１ */
+.course{
+width: 100%;
+border: 1px solid;
+}
+
+.course-image{
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+}
+
+.course-text{
+    width:50%;
+    border: 1px solid;
+}
+
+.course-image img{
+    width: 100%;
+
+}
+
+
+/* 階層2 */
+.flex{
+    display: flex;
+    border: 1px solid;
+}
+
+.course-inner-text{
+    border: 1px solid;
+}
+
+
+    /* text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.course1{
+    margin-left: 50px;
+    width: 50%; */
+    /* height: 50%; */
+/* .course5{
+    margin-left: 50px;
+    width: 50%;
+    height: 50%; */ 
+
+
+/* news */
+/* 画像の上にマウスがきたら〜〜する */
+.news-image:hover{
+    /* 透明度 */
+    opacity: 0.5;
+}
+
+/* アクセス */
+.access{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 1px solid;
+}
+
+
+
+.info{
+
+}
+
+.info_content{
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+}
+
+.left-cell2{
+    width: 200px;
+}
+.right-cell2{
+    width: 440;
+}
+
+
+
+/* コンタクト */
+.contact{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    border: 1px solid;
+}
+
+/* フォーム */
+.form{
+    text-align: center;
+    width: 640px;
+    margin: auto;
+    border: 1px solid;
+ 
+}
+
+.form td{
+    border: solid 1px brown;
+}
+
+.right-cell{
+    width: 400px;
+
+}
+
+.left-cell{
+    width: 240px;
+
+}
+/* idを指定するときは#〜で指定する */
+#name{
+    width: 293px;
+}
+
+
+/*hover関連 */
+/* .hover1 {
+    display: inline-block;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  } */
+  .hover1:hover {
+    opacity: 0.6;
+  }
+
+  .hover2{
+    transition: all 1s linear 0s;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  .hover2:hover {
+    transform: rotateX(360deg);
+  }
+
+  .hover3 {
+    border-radius: 50%;
+    transition: all 0.6s ease 0s;
+  }
+  .hover3:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+  /* transformは動作をスムーズにするためのもの */
+
+
+.button{
+    display: inline-block;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    background-color: #3fbaf3;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    text-decoration: none; 
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+
+/*color */
+.cly{
+color: yellow;
+}
+
+/* ニュース */
+.news{
+    /* 不要なtext~は削除 */
+    text-align: center;
+    margin: auto;
+}
+
+.w300{
+    width: 300px;
+}
+
+.w300 img{
+    width: 100%;
+}
+/* フッター */
+.footer{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+/* fontsize */
+.fs20{
+    font-size: 20px;
+}
+
+.fs50{
+    font-size: 50px;
+}
+
+.textcenter{
+    text-align:center;
+    }
+
+.flex{
+    display: flex;
+}
+
+
+/* flex コンテナ */
+.flexbox1{
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+}
+
+.w100{
+width: 100%;
+
+}
+
+.w50{
+    width: 50%;
+    
+    }
+
+    /* flexがかかっていることが前提 */
+.justify{
+    justify-content: space-evenly;
+}
+    
